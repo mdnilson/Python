@@ -3,12 +3,13 @@ import random
 print('------------------------------')
 print('        Guess Game')
 print('------------------------------')
+print()
 
 mm_count = random.randint(1, 100)
 attempt_limit = 5
 attempts = 0
 
-print('Guess how many M&Ms are in the jar')
+print('Guess how many M&Ms are in the jar?')
 print('The max number is 100.')
 print('You have 5 chances')
 print()
@@ -25,4 +26,3 @@ while attempts < attempt_limit:
         print('It is not a value between 1 and 100')
     attempts += 1
 print('Bye!')
-
