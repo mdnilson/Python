@@ -23,5 +23,6 @@ while attempts < attempt_limit:
         print('Too high')
     else:
         print('It is not a value between 1 and 100')
+    attempts += 1
 print('Bye!')
 
